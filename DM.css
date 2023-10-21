@@ -1,10 +1,10 @@
 body {
     width: 98%;
     height: 98%;
-    /*background: -webkit-linear-gradient(to bottom, #BAC94A, #E2D36B);
-    background: linear-gradient(to bottom, #BAC94A, #E2D36B);*/
-    background: -webkit-linear-gradient(to bottom, #94b447, #5d6e1e);
-    background: linear-gradient(to bottom, #94b447, #5d6e1e);
+    background: -webkit-linear-gradient(to bottom, #BAC94A, #E2D36B);
+    background: linear-gradient(to bottom, #BAC94A, #E2D36B);
+    /*background: -webkit-linear-gradient(to bottom, #94b447, #5d6e1e);
+    background: linear-gradient(to bottom, #94b447, #5d6e1e);*/
     
     font-family: Assistant, sans-serif;
     min-height: 97vh;
@@ -32,7 +32,9 @@ body {
 .home-card{
     display:block;
     position: relative;
-    background: none;/*linear-gradient(#E2D36B, #96D7C6);*/
+    /*background: none;/*linear-gradient(#E2D36B, #96D7C6);*/
+    background: -webkit-linear-gradient(to bottom, #5d6e1e, #94b447);
+    background: linear-gradient(to bottom, #5d6e1e, #94b447);
     box-shadow: 
       0px 2px 10px rgba(0,0,0,0.2), 
       0px 10px 20px rgba(0,0,0,0.3), 
