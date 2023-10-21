@@ -1,0 +1,59 @@
+body {
+    width: 98%;
+    height: 98%;
+    background: -webkit-linear-gradient(to bottom, #BAC94A, #E2D36B);
+    background: linear-gradient(to bottom, #BAC94A, #E2D36B);
+    font-family: Assistant, sans-serif;
+    min-height: 97vh;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home{
+    background: none;
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    vertical-align:middle;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+.home-card{
+    display:block;
+    position: relative;
+    background: none;/*linear-gradient(#E2D36B, #96D7C6);*/
+    box-shadow: 
+      0px 2px 10px rgba(0,0,0,0.2), 
+      0px 10px 20px rgba(0,0,0,0.3), 
+      0px 30px 60px 1px rgba(0,0,0,0.5);
+    border-radius: 3px;
+    height: 80%;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    font-size: 5vh;
+    font-weight: bolder;
+    color:white;
+    padding-top: 10%;
+    padding-right: 0%;
+    padding-bottom: 10%;
+    padding-left: 0;
+}
+
+@media screen and (orientation: portrait){
+    .home-card{
+        height: 25%;
+        width: 80%;
+        
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
